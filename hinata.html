@@ -9,6 +9,20 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <link rel="icon" href="favicon.png" type="image/x-icon" /> 
     <title>Code/140.136遊戲提示</title>
+    <style>
+      .badge-building{
+        color:#fff;
+        background-color:#b179b5
+      }
+      .badge-life{
+        color:#fff;
+        background-color:#fac1da
+      }
+      .badge-study{
+        color:#fff;
+        background-color:#672f92
+      }
+    </style>
   </head>
   <body>
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
@@ -39,7 +53,7 @@
         <div class="accordion-item">
           <h2 class="accordion-header" id="headingOne">
             <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
-                <span class="badge bg-info text-dark">課程類</span>&nbsp;#1
+                <span class="badge rounded-pill badge-study">課程類</span>&nbsp;#1
             </button>
           </h2>
           <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
@@ -55,7 +69,7 @@
         <div class="accordion-item">
           <h2 class="accordion-header" id="headingTwo">
             <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                <span class="badge bg-warning text-dark">建築類</span>&nbsp;#2
+                <span class="badge rounded-pill badge-building">建築類</span>&nbsp;#2
             </button>
           </h2>
           <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
@@ -67,7 +81,7 @@
         <div class="accordion-item">
           <h2 class="accordion-header" id="headingThree">
             <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                <span class="badge bg-danger">生活類</span>&nbsp;#3
+                <span class="badge rounded-pill badge-life">生活類</span>&nbsp;#3
             </button>
           </h2>
           <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
