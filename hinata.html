@@ -36,6 +36,11 @@
     .panel-heading{    
       padding: 3px;
     }
+    /*
+    .accordion-button{
+      background-color: #f1e9ff;
+    }
+    */
    .accordion-button:focus {
       box-shadow: none;
       background-color: #f1e9ff;
@@ -43,6 +48,13 @@
     a{
       color: rgb(178, 116, 250);
     }
+    .accordion{
+      border-radius: 80px;
+      width: 98%;
+      margin-left: auto;
+      margin-right: auto;
+    }
+    
   </style>
 </head>
 
@@ -84,10 +96,10 @@
       <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne"
         data-bs-parent="#accordionExample">
         <div class="accordion-body">
-          【題目】<br />
+          題目：<br />
           檔案只有短短幾行程式碼，請問日翔該輸入什麼才能執行此函式，讓結果非None呢？（請輸入半形英文字母）<br />
           <img src="https://upload.cc/i1/2022/03/06/q4DPkj.png" class="card-img-top">
-          【提示】<br />
+          提示：<br />
           <font color="#51c4d2">code140136</font>(x)為一函式，<font color="#9860c6">return</font>為滿足某條件回傳之結果。該輸入什麼才能使此函式執行<font color="#9860c6">return</font>？
         </div>
       </div>
@@ -146,7 +158,7 @@
           小光的學號是「408402132」，請問小光是民國幾年入學、甲班還是乙班、座號幾號呢？（請以「ＯＯ年、Ｏ班、ＯＯ號回答」。）
           <br />
           提示：<br />
-          可以參考<a href="https://www.dcard.tw/f/fju/p/236768241">Dcard</a>找出答案
+          可以參考<a href="https://www.dcard.tw/f/fju/p/236768241">此篇Dcard</a>找出答案
           <img src="https://imgur.dcard.tw/d4uw97bh.png" class="card-img-top">
         </div>
       </div>
@@ -205,7 +217,7 @@
           請問每年的9月，在風華廣場會舉辦什麼活動？
           <br />
           提示：<br />
-          開學季最熱鬧的事情了
+          請選出最適合迎新的活動。
         </div>
       </div>
     </div>
@@ -224,7 +236,7 @@
           請問每年的12月，學校會舉辦什麼活動？
           <br />
           提示：<br />
-          我忘了...
+          請選出選項中的體育競賽。
         </div>
       </div>
     </div>
@@ -243,7 +255,8 @@
           學校外面藏有很多美食的小巷叫？（請輸入「ＯＯＯ巷」回答。）
           <br />
           提示：<br />
-          很簡單的，5.....
+          可以從<a href="http://www.sedia.fju.edu.tw/wordpress/">學校俯視圖</a>得到答案哦
+          <img src="http://www.sedia.fju.edu.tw/wordpress/wp-content/uploads/2021/09/%E8%BB%9F%E5%89%B5-%E8%BC%94%E5%A4%A7%E6%A0%A1%E5%9C%92%E5%9C%B0%E5%9C%96_%E5%B7%A5%E4%BD%9C%E5%8D%80%E5%9F%9F-1-1024x724.jpg" class="card-img-top">
         </div>
       </div>
     </div>
@@ -253,7 +266,7 @@
       <h2 class="accordion-header" id="heading10">
         <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#c10"
           aria-expanded="false" aria-controls="c10">
-          <span class="badge rounded-pill badge-life">生活類</span>&nbsp;#10
+          <span class="badge rounded-pill badge-building">建築類</span>&nbsp;#10
         </button>
       </h2>
       <div id="c10" class="accordion-collapse collapse" aria-labelledby="heading10" data-bs-parent="#accordionExample">
@@ -262,7 +275,7 @@
           聖言樓地下室的書局叫？
           <br />
           提示：<br />
-          去看看就知道
+          可以參考<a href="https://www.fju.edu.tw/file/letters/P79.pdf">學生手札</a>。
         </div>
       </div>
     </div>
@@ -272,16 +285,17 @@
       <h2 class="accordion-header" id="heading11">
         <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#c11"
           aria-expanded="false" aria-controls="c11">
-          <span class="badge rounded-pill badge-life">生活類</span>&nbsp;#11
+          <span class="badge rounded-pill badge-study">課程類</span>&nbsp;#11
         </button>
       </h2>
       <div id="c11" class="accordion-collapse collapse" aria-labelledby="heading11" data-bs-parent="#accordionExample">
         <div class="accordion-body">
           題目：<br />
-          11 python程式碼如下，請問輸出結果為？（Ａ）1234（Ｂ）0123（Ｃ）123（Ｄ）012
+          Python程式碼如下，請問輸出結果為？
+          <img src="https://upload.cc/i1/2022/03/25/5YXBG8.png" class="card-img-top">
           <br />
           提示：<br />
-          不如走去看看吧~還可以解鎖建築任務哦
+          此<font color="#b769ca">while</font>迴圈會持續<font color="#e4af6a">print</font> i+=1，直到滿足i<=3為止。
         </div>
       </div>
     </div>
@@ -298,9 +312,10 @@
         <div class="accordion-body">
           題目：<br />
           以下語法為Python結構中的？
+          <img src="https://upload.cc/i1/2022/03/25/8MeqCO.png" class="card-img-top">
           <br />
           提示：<br />
-          好好上課！
+          仔細看此程式碼的資料表示型態及括弧。
         </div>
       </div>
     </div>
@@ -317,9 +332,10 @@
         <div class="accordion-body">
           題目：<br />
           請問下圖最後會出現什麼結果？
+          <img src="https://upload.cc/i1/2022/03/10/J106XE.png" class="card-img-top">
           <br />
           提示：<br />
-          自己寫然後執行就知道咯
+          欲停止此<font color="#b769ca">while</font>迴圈須達成x<=100此條件，在條件滿足前此迴圈會一直執行y+=x。
         </div>
       </div>
     </div>
@@ -336,9 +352,10 @@
         <div class="accordion-body">
           題目：<br />
           下列以Python語法撰寫出的程式碼最後輸出結果為？（請以「x=Ｏ」回答，Ｏ數量不代表實際答案字數。）
+          <img src="https://upload.cc/i1/2022/03/25/uHLoSw.png" class="card-img-top">
           <br />
           提示：<br />
-          自己寫然後執行就知道咯
+          <font color="#b769ca">for</font>迴圈中<font color="#fab167">range</font>(1,100,2)的語法代表：i從1開始，每2個一數，直到100-1，執行x+i。
         </div>
       </div>
     </div>
@@ -357,7 +374,8 @@
           傳說中的「輔大三寶」分別是哪三寶？
           <br />
           提示：<br />
-          問問直屬吧
+          可以參考<a href="https://www.fju.edu.tw/focusDetail.jsp?focusID=1015&focusClassID=6">學校官網</a>。
+          <img src="https://www.fju.edu.tw/showImg/focus/focus1015.jpg" class="card-img-top">
         </div>
       </div>
     </div>
@@ -373,10 +391,10 @@
       <div id="c16" class="accordion-collapse collapse" aria-labelledby="heading16" data-bs-parent="#accordionExample">
         <div class="accordion-body">
           題目：<br />
-          y=(5x+6)^10，則y’=？
+          y=(5x+6)^10，則y'=？
           <br />
           提示：<br />
-          這還要提示哦...
+          當y=x^9時，y'=9x^8，同理可得解答。
         </div>
       </div>
     </div>
@@ -395,7 +413,7 @@
           y=e^(2x)，則y’=？
           <br />
           提示：<br />
-          e不變
+          令u=2x，因此y=e^u，以dy/dx=dy/du*du/dx代換可得解答。
         </div>
       </div>
     </div>
